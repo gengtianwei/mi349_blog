@@ -8,7 +8,6 @@ body{
     padding: 40px;
     color: #242424;
     border-top: 10px solid #242424;
-    background: #fff;
 }
 
 h1{
@@ -30,4 +29,32 @@ p{
 
 article{
     border-bottom : 1px dotted #000;
+    padding: 20px;
+    margin: 20px
+}
+
+section {
+    display: flex;
+}
+
+.img-container{
+    background: white;
+    height: 50px;
+    width: 50px;
+    float: left;
+    margin-right: 10px;
+}
+.sticky, .position-demo {
+    color: white;
+    padding: 20px;
+}
+
+.sticky {
+    background: green;
+    position: sticky;
+    top: 0;
+}
+
+.position-demo{
+    background: blue;
 }
