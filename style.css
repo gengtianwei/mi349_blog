@@ -58,3 +58,9 @@ section {
 .position-demo{
     background: blue;
 }
+
+@media (max-width: 600px) {
+    #blog {
+        background: red;
+    }
+}
